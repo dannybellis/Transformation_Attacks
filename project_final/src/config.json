@@ -1,0 +1,28 @@
+{
+    "training parameters": {
+        "training steps": 8000,
+        "batch size": 150,
+        "adversary": "worst k",
+	"model path": "mnist_nn_adv" 
+    },
+    "spatial attack parameters": {
+        "XYRlimits": [
+            3.0,
+            3.0,
+            30.0
+        ],
+        "step size": 0.001,
+        "epochs": 200,
+        "grid granularity": [
+            7,
+            7,
+            100
+        ],
+        "random tries": 10
+    },
+    "L infinity attack parameters": {
+        "epsilon": 0.3,
+        "step size": 0.01,
+        "epochs": 40
+    }
+}
